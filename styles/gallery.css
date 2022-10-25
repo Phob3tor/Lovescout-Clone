@@ -1,0 +1,233 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container p, .container h2 {
+    user-select: none;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: #471184;
+    background: linear-gradient(to left, #1c0536, #7234b8);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 2px solid white;
+    
+}
+
+nav ul {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+nav ul, nav ul li, nav ul li a {
+    display: flex;
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li a p {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav ul li a p {
+    margin-left: 0.5rem;
+    font-size: 2.5rem;
+    margin-top: 0.3rem;
+    font-family: "Comeback of the damned";
+    color: #EEBF24;
+    font-weight: 900;
+    
+}
+nav img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav-logo {
+    margin-right: auto;
+}
+
+.nav-right {
+    align-self: flex-end;  
+    margin: 1rem;
+}
+
+.nav-right a {
+    color: #edd380;
+    font-family: "Asgalt";
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.nav-right a:hover {
+    animation: color-change-nav 0.75s ease-in-out infinite alternate;
+}
+
+@keyframes color-change-nav {
+    from {
+        color: #edd380;
+    }
+    to {
+        color: #faf8f2;
+        text-shadow: 0 0 0.1rem #efdfa8, 0 0 0.2rem #f4ecd1, 0 0 0.3rem #f6f3e7;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        padding: 0.5rem;
+        margin: 0.5rem;
+
+    }
+
+    nav img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .nav-logo p {
+        font-size: 2rem;
+        margin-left: 0.25rem;
+    }
+
+    .nav-logo {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .nav-right {
+        margin: 0.25rem;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .nav-right a {
+        font-size: 1.5rem;
+
+    }
+}
+
+
+/* GALLERY */
+
+main {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-rows: 1fr;
+    background: linear-gradient(120deg, #C5911F, #EDD380);
+    padding: 2rem;
+
+}
+
+
+
+
+
+.card {
+    display: inline-block;
+    background: linear-gradient(to bottom, #8e5aca, #100121);
+    margin: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+}
+
+.card:hover {
+    animation: shaking-card 1.75s ease-in-out infinite alternate;
+    cursor:pointer;
+}
+
+.card div {
+    padding: 0.5rem;
+}
+
+.card img {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.card h2 {
+    font-size: 3rem;
+    color: #edd380;
+    display: inline;
+}
+
+.card h3 {
+    font-size: 2rem;
+    color: #edd380;
+}
+
+@keyframes shaking-card {
+        0% {
+            transform: rotate(5deg) scale(0.95);
+
+        }
+        33% {
+            transform: rotate(-5deg) scale(1.05);
+
+        }
+        66% {
+            transform: rotate(5deg) scale(0.95);
+
+        }
+        100% {
+            transform: rotate(-5deg) scale(1.05);
+
+        }
+}
+
+#next-profiles {
+    margin-top: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #100121;
+    grid-column: 1/-1;
+}
+
+#next-profiles h2 {
+    font-weight: 700;
+}
+
+#next-profiles button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem;
+    border: 2px solid #edd380;
+    border-radius: 10px;
+    font-size: 4rem;
+    background: linear-gradient(to bottom, #8e5aca, #100121);
+    color: #edd380;
+    margin-bottom: 2rem;
+}
+
+
+/* Footer */
+footer {
+    background-color: #100121;
+    display: flex;
+    color: rgb(253, 255, 223);
+    font-family: monospace;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid white;
+}
+
+footer p {
+    padding: 0.5rem;
+    
+}

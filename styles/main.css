@@ -1,0 +1,37 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "Asgalt";
+}
+
+/* FONTS */
+@font-face {
+    font-family: "Halloween Too";
+    src: url("../fonts/Halloween\ Too.ttf");
+}
+
+@font-face {
+    font-family: "Asgalt";
+    src: url("../fonts/Asgalt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Misfits";
+    src: url("../fonts/MISFITS_.TTF");
+}
+
+@font-face {
+    font-family: "Black Widow";
+    src: url("../fonts/BlackWidow.ttf");
+}
+
+@font-face {
+    font-family: "Comeback of the damned";
+    src: url("../fonts/Comeback\ Of\ The\ Damned.otf");
+}
