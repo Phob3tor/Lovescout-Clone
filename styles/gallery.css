@@ -206,10 +206,10 @@ main {
 #next-profiles button {
     margin-top: 1rem;
     display: inline-block;
-    padding: 2rem;
+    padding: 1.5rem;
     border: 2px solid #edd380;
     border-radius: 10px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     background: linear-gradient(to bottom, #8e5aca, #100121);
     color: #edd380;
     margin-bottom: 2rem;
