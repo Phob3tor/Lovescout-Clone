@@ -326,7 +326,8 @@ var Females = {
     F054: {
             name: 'Clotho',
             image: '../img/profile-pics/female/uniques/clotho.png',
-            species: 'Fate'
+            species: 'Fate',
+            age: 13856
     },
     F055: {
             name: 'Hel',
