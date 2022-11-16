@@ -1,3 +1,8 @@
+body {
+    max-width: 100%;
+    width: 100%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -121,6 +126,13 @@ nav img {
     #next-profiles h2 {
         font-size: 0.5em;
     }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .card {
+        width: 91vw;
+    }
 }
 
 
@@ -132,7 +144,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-template-rows: 1fr;
     background: linear-gradient(120deg, #C5911F, #EDD380);
-    padding: 2rem;
+    /* padding: 2rem; */
 
 }
 
