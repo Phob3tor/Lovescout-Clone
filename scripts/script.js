@@ -235,19 +235,19 @@ var Females = {
     },
     F039: {
             name: 'Clara',
-            image: '../img/profile-pics/female/Mothmens/clara.png',
+            image: '../img/profile-pics/female/mothmens/clara.png',
             species: 'Mothman',
             age: 190
     },
     F040: {
             name: 'Scarlett',
-            image: '../img/profile-pics/female/Mothmens/scarlett.png',
+            image: '../img/profile-pics/female/mothmens/scarlett.png',
             species: 'Mothman',
             age: 166
     },
     F041: {
             name: 'Stella',
-            image: '../img/profile-pics/female/Mothmens/stella.png',
+            image: '../img/profile-pics/female/mothmens/stella.png',
             species: 'Mothman',
             age: 59
     },
@@ -326,7 +326,8 @@ var Females = {
     F054: {
             name: 'Clotho',
             image: '../img/profile-pics/female/uniques/clotho.png',
-            species: 'Fate'
+            species: 'Fate',
+            age: 13856
     },
     F055: {
             name: 'Hel',
@@ -969,25 +970,25 @@ var Males = {
     },
     M039: {
             name: 'Carter',
-            image: '../img/profile-pics/male/Mothmens/carter.png',
+            image: '../img/profile-pics/male/mothmens/carter.png',
             species: 'Mothman',
             age: 337
     },
     M040: {
             name: 'Logan',
-            image: '../img/profile-pics/male/Mothmens/logan.png',
+            image: '../img/profile-pics/male/mothmens/logan.png',
             species: 'Mothman',
             age: 181
     },
     M041: {
             name: 'Noah',
-            image: '../img/profile-pics/male/Mothmens/noah.png',
+            image: '../img/profile-pics/male/mothmens/noah.png',
             species: 'Mothman',
             age: 310
     },
     M042: {
             name: 'William',
-            image: '../img/profile-pics/male/Mothmens/william.png',
+            image: '../img/profile-pics/male/mothmens/william.png',
             species: 'Mothman',
             age: 80
     },
